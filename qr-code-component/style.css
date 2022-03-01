@@ -1,0 +1,54 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 98vh;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.box img {
+    border-radius: 15px;
+    object-fit: cover;
+    height: 285px;
+}
+
+.box h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 30px 15px 30px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+    margin: 15px 30px 30px 30px;
+}

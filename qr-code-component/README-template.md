@@ -1,9 +1,20 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - QR code component
+![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+## Welcome! 👋
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help me improve my coding skills by building realistic projects.
+
+## The challenge
+The challenge is to build out this QR code component and get it looking as close to the design as possible.
+
+I can use any tools I like to help me complete the challenge.
+
+# Frontend Mentor - QR code component solution
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
 ## Table of contents
-
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -18,7 +29,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-
 <div align="center">My desktop solution<br>
 <a href="./screenshot-desktop.png" target="_blank"><img src="./screenshot-desktop.png" width="45%" height="60%"/></a>
 </div>
@@ -30,9 +40,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 </div>
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Cechr/frontendmentor-challenges/tree/main/qr-code-component)
+- Live Site URL: [Netlify](https://my-qr-code-component.netlify.app/)
 
 ## My process
 
@@ -43,23 +52,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to use Flexbox and use some CSS properties.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue focusing on the use of CSS, Flexbox and CSS Grid to create nice and cool web pages with UX/UI rules and good practices.
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools - CSS Reference](https://www.w3schools.com/cssref/default.asp) - This helped me for remembering CSS properties and how to use properly. I really liked this page.
+- [css-tricks / A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing cheatsheet. I'd recommend it to anyone still learning this concept.
+- [Flexbox cheatsheet](https://flexbox.malven.co/) - This is an amazing cheatsheet which helped me finally understand Flexbox. I'd recommend it to anyone still learning this concept.
 
 ## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Facebook - [@yourusername](https://www.facebook.com/yourusername)¿
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Frontend Mentor - [@Cechr](https://www.frontendmentor.io/profile/Cechr)
