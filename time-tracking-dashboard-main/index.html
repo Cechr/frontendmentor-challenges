@@ -5,82 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      box-sizing: border-box;
-      min-height: 96vh;
-    }
-
-    section {
-      background: hsl(228, 45%, 44%);
-      height: 300px;
-      width: 300px;
-      /*align-self: flex-start;*/
-    }
-    
-    article {
-      background: orange;
-      height: 300px;
-      width: 300px;
-    }
-
-  </style>
 </head>
 <body>
   <main>
     <div class="container">
-      <section>
-        <span>Report for</span>
-        <br>
-        <h2>Jeremy Robson</h2>
-        <ul>
-          <li>Daily</li>
-          <li>Weekly</li>
-          <li>Monthly</li>
-        </ul>
+      <section class="main-section">
+        <div class="title">
+          <span>Report for</span>
+          <br>
+          <h2>Jeremy Robson</h2>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Daily</a></li>
+            <li><a href="#">Weekly</a></li>
+            <li><a href="#">Monthly</a></li>
+          </ul>
+        </div>
       </section>
-      <article>
-        <h3>Work</h3>
-        <p>5hrs <!-- daily --></p>
-        <span>Previous - 7hrs <!-- daily --></span>
-      </article>
-      <article>
-        <h3>Play</h3>
-        <p>1hr <!-- daily --></p>
-        <span>Previous - 2hrs <!-- daily --></span>
-      </article>
-      <article>
-        <h3>Study</h3>
-        <p>0hrs <!-- daily --></p>
-        <span>Previous - 1hr <!-- daily --></span>
-      </article>
-      <article>
-        <h3>Exercise</h3>
-        <p>1hr <!-- daily --></p>
-        <span>Previous - 1hr <!-- daily --></span>
-      </article>
-      <article>
-        <h3>Social</h3>
-        <p>1hr <!-- daily --></p>
-        <span>Previous - 3hrs <!-- daily --></span>
-      </article>
-      <article>
-        <h3>Self Care</h3>
-        <p>0hrs <!-- daily --></p>
-        <span>Previous - 1hr <!-- daily --></span>
-      </article>
+      <section class="secondary-section">
+        <article>
+          <h3>Work</h3>
+          <p>5hrs <!-- daily --></p>
+          <span>Previous - 7hrs <!-- daily --></span>
+        </article>
+        <article>
+          <h3>Play</h3>
+          <p>1hr <!-- daily --></p>
+          <span>Previous - 2hrs <!-- daily --></span>
+        </article>
+        <article>
+          <h3>Study</h3>
+          <p>0hrs <!-- daily --></p>
+          <span>Previous - 1hr <!-- daily --></span>
+        </article>
+        <article>
+          <h3>Exercise</h3>
+          <p>1hr <!-- daily --></p>
+          <span>Previous - 1hr <!-- daily --></span>
+        </article>
+        <article>
+          <h3>Social</h3>
+          <p>1hr <!-- daily --></p>
+          <span>Previous - 3hrs <!-- daily --></span>
+        </article>
+        <article>
+          <h3>Self Care</h3>
+          <p>0hrs <!-- daily --></p>
+          <span>Previous - 1hr <!-- daily --></span>
+        </article>
+      </section>      
     </div>
   </main>
   
